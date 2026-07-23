@@ -4,11 +4,11 @@
 //se positivo incluir no objeto uma propriedade chamada aprovado com o valor true caso contrario false.
 
 const alunos = [
-    {nome: 'joão', turma: 'A', nota: 7},
-    {nome: 'pedro', turma: 'B', nota: 7},
-    {nome: 'ana', turma: 'C', nota: 7},
-    {nome: 'rick', turma: 'D', nota: 7},
-    {nome: 'mario', turma: 'E', nota: 7},
+    {nome: 'joão', turma: 'A', nota: 5},
+    {nome: 'pedro', turma: 'B', nota: 1},
+    {nome: 'ana', turma: 'C', nota: 10},
+    {nome: 'rick', turma: 'D', nota: 6},
+    {nome: 'mario', turma: 'E', nota: 8},
 ]
 alunos.forEach(alunos => {
     if (alunos.nota > 6){
