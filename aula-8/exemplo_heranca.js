@@ -25,3 +25,20 @@ pessoa_2.saudacao();
 pessoa_2.nome = 'Silva';
 //pessoa_2.idade = '31';
 pessoa_2.saudacao();
+
+//exemplo herança
+//criação de uma classe Professor que herda da classe Pessoa
+//class professor -> classe filha
+//classe pessoa -> classe mãe
+class Professor extends Pessoa {
+    materia;
+
+    constructor (nome_herdado, idade_herdado, materia){
+        super(nome_herdado, idade_herdado);
+        this.materia = materia;
+    }
+}
+
+let prof = new Professor('nome prof', 30, 'Front-end');
+
+console.log(prof.nome,'----');
