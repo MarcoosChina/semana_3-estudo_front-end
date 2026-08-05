@@ -1,0 +1,8 @@
+function fatorial(n) {
+  //caso base
+  if (n == 1) { 
+    return 1; //<- ponto de parada
+  }
+
+  return n * fatorial(n - 1); //função que chama ela própria e alterando o valor da sua entrada
+}
